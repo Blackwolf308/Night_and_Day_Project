@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $('#orb').click(function() {
+$(document).ready(function () {
+    $('#orb').click(function () {
         if ($('#orb').hasClass('sun')) {
             $('#orb').removeClass('sun').addClass('moon');
         }
